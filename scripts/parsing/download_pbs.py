@@ -96,7 +96,8 @@ if __name__ == "__main__":
             print(f"Successfully created output directory {normalized_output_dir}")
         except OSError as e:
             print(f"Critical Error: Could not create output directory {normalized_output_dir}: {e}")
-            exit(1) # Exit if we can't create the target dir
+            import sys
+            sys.exit(1)
 
     if download_and_unzip_pbs(args.url, normalized_output_dir):
         print("PBS download and extraction script finished successfully.")
