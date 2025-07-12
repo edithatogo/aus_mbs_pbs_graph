@@ -78,7 +78,8 @@ if __name__ == "__main__":
             print(f"Successfully created output directory {normalized_output_dir}")
         except OSError as e:
             print(f"Critical Error: Could not create output directory {normalized_output_dir}: {e}")
-            exit(1) # Exit if we can't create the target dir
+            import sys
+            sys.exit(1)
 
     # Use the specific filename from args (which defaults to DEFAULT_FILENAME)
     if download_file(args.url, normalized_output_dir, args.filename):
