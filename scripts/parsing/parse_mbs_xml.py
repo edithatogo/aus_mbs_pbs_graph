@@ -3,7 +3,7 @@ import os
 from lxml import etree
 
 # Configuration
-DEFAULT_MBS_XML_PATH = "MBS-XML-20250701 Version 3.XML" # Changed: Points to file in same dir as script
+DEFAULT_MBS_XML_PATH = "../../temp_mbs_download.xml"
 MAX_ITEMS_TO_PRINT = 5
 
 def parse_mbs_xml_initial(xml_file_path, max_items=MAX_ITEMS_TO_PRINT):
