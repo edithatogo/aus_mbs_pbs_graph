@@ -1,0 +1,22 @@
+# Ignore raw data files
+data/raw/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.DS_Store
+build/
+dist/
+*.sqlite3
+*.db
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
