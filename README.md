@@ -1,3 +1,6 @@
+> **Successor development:** See [the GMA compatibility notice](SUCCESSOR.md).
+> Consolidation is in progress; this repository remains unarchived.
+
 # Australian Healthcare Knowledge Graph (aus-health-knowledge-graph)
 
 ## Project Overview
